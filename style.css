@@ -24,14 +24,14 @@ body a {
   height: 238.9px;
   margin: -153px -200px -87px;
   transform: rotate(29deg);
-  background: #5E8CB6;
+  background: #ACC1D1;
 }
 
 #stripe {
   width: 100%;
   height: 70px;
   top: 0;
-  background: #ACC1D1;
+  background: #5E8CB6;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -75,9 +75,10 @@ img#TH-symbol {
 #info-box {
   font-family: 'Muli', sans-serif;
   width: 375px;
-  height: 408px;
+  height: 427px;
   background: rgba(94,140,182,0.60);
   display: flex;
+  /*display: none;*/
   flex-direction: column;
   position: absolute;
 }
@@ -89,23 +90,27 @@ img#TH-symbol {
 p#small {
   font-size: 12.5px;
   font-weight: 300;
+  text-align: left;
 }
+
 p#big {
   font-size: 24.5px;
   font-weight: 300;
   margin-top: -22px;
+  text-align: left;
 }
 
 p#description {
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;
+  text-align: left;
 }
 
 #symbols {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
 }
 
@@ -115,7 +120,17 @@ p#description {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  text-transform: uppercase;
+}
+
+.materia {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  text-transform: uppercase;  
+}
+
+p.materia {
+  width: 110px;
 }
 
 #CTA-stripe {
@@ -128,8 +143,8 @@ p#description {
 #CTA {
   font-family: 'Muli', sans-serif;
   font-weight: 600;
-  width: 127.1px;
-  height: 76.6px;
+  width: 100%;
+  height: 65px;
   position: absolute;
   background-color: #5E8CB6;
   display: flex;
@@ -138,7 +153,7 @@ p#description {
   align-items: center;
   text-transform: uppercase;
 
-  display: none;
+  /*display: none;*/
 
 }
 
